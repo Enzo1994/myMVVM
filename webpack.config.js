@@ -29,7 +29,7 @@ module.exports = {
     mode:'development',
     devtool:'source-map',
     devServer:{
-        port:10000
+        port:8090
         },
     plugins:[
         new CleanWebpackPlugin(),
@@ -37,6 +37,6 @@ module.exports = {
             template:'./index.html',
             filename: 'index.html'
         }),
-        new BundleAnalyzerPlugin()
+        // new BundleAnalyzerPlugin()
     ]
 }

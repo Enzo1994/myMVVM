@@ -26,6 +26,9 @@ export function Compiler(el,vm){
                     })
                     node.textContent = node.textContent.replace(match[0],val)
                 }
+            }else if(node.nodeType == 1){
+                console.log(node);
+                
             }
             if(node.childNodes){
                 replace(node.childNodes)

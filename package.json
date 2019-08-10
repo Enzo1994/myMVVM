@@ -1,6 +1,6 @@
 {
   "name": "mvvm",
-  "sideEffects":"false",
+  "sideEffects": "false",
   "version": "1.0.0",
   "description": "A MVVM mini \u0016implementation.",
   "main": "main.js",
