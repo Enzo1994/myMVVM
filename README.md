@@ -2,4 +2,4 @@
 MVVM模式的简单实现
 # 用法：
 `npm install`
-`npm run dev`
+`npm start`
